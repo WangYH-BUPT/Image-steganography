@@ -1,3 +1,7 @@
+### (22,510-D) CC-JRM 论文
+
+> J. Kodovský, and J. Fridrich, “Steganalysis of JPEG Images Using Rich Models,” in Proceedings of SPIE, Electronic Imaging, Media Watermarking, Security, and Forensics XIV, vol. 8303, no. 83030, 2012.
+
 ### (22,510-D) CC-JRM特征
 
 通过Extracting.m调用CCJRM.m提取CC-JRM特征
