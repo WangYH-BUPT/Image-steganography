@@ -18,7 +18,7 @@
 
 3. 第五行迭代次数 `imagenum` 根据数据集而变化
 
-		for i = 1: 10000
+		imagenum = 10000; Dim = 8000;
 
 4. 第九行质量因子 `quality_factor` = 75, 85, 95
 
