@@ -6,3 +6,6 @@ BOSSbase_1.01 Dataset link: http://dde.binghamton.edu/download/
 
 BOSSbase_1.01.zip 是 10,000 幅 512×512 尺寸的 pgm 灰度图像。
 
+pgmJPEG.m 实现了从pgm格式转换成JPEG格式的图像
+
+structChangetoDouble.m 实现了 mat 文件从 struct 类型转换成 Double 类型。
