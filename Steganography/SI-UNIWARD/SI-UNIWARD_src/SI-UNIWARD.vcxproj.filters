@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{1bf69f87-5435-4bfa-9351-24dd5676cd62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cost_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cost_model_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\base_cost_model.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\base_cost_model_config.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\exception.hpp">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fast_math.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\info_theory.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mat2D.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mi_embedder.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sse_mathfun.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stc_embed_c.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stc_extract_c.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\stc_ml_c.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="wavelets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jstruct.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\image.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cost_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cost_model_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SI-UNIWARD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\base_cost_model.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\base_cost_model_config.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\common.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\info_theory.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\mi_embedder.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\stc_embed_c.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\stc_extract_c.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\stc_ml_c.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\jstruct.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\image.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
