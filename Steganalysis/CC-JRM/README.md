@@ -10,16 +10,16 @@
 
 1. 第二行`JPEG_Toolbox`的路径
 
-		addpath(fullfile('..','JPEG_Toolbox'));
+		addpath(fullfile('..', 'JPEG_Toolbox'));
 
 2. 第三行质量因子`QF` = 75, 85, 95
 
-		QF=95;
+		QF = 95;
 
 3. 第四行`images_stego`的路径
 
-		FILE1=fullfile('..','images_stego');
+		FILE1 = fullfile('..', 'images_stego');
 
 4. 第九行迭代次数`i`根据数据集而变化
 
-		for i=1:10000
+		for i = 1:10000
