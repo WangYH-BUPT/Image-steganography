@@ -12,17 +12,14 @@ Ensemble Classification是基于随机森林、蒙特卡洛思想的分类器，
 
 1. 第三行 `cover` 的路径
 
-		cover = load('D:\Personal\SIUNIWARD-DCTR-95\cover.mat');
+		cover = load('D:\SIUNIWARD-DCTR-95\cover.mat');
 
 2. 第四行 `stego` 的路径
 
-		stego = load('D:\Personal\SIUNIWARD-DCTR-95\stego050.mat');
+		stego = load('D:\SIUNIWARD-DCTR-95\stego050.mat');
 
 3. 第五行 `columns` 行数
 
-		load('D:\Personal\columns.mat');
+		load('D:\columns.mat');
 
 输出是十个分类错误率和一个平均的分类错误率。
-
-
-
