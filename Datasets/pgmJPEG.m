@@ -1,4 +1,5 @@
-clc;clear;
+% Code by WangYH-BUPT
+clc; clear;
 for i=1:10000
 picname1=[num2str(i),'.JPEG'];
 pathfile1=['D:\Matlab\bin\SI-UNIWARD_matlab\images_cover\',picname1];
